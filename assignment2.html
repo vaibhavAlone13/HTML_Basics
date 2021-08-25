@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment on creating table</title>
+        <style>
+            table{
+                margin: auto;
+                width: 50%;
+            }
+            table,tr,th,td{
+                border: solid black;
+                border-collapse: collapse;
+                text-align: left;
+                padding: 10px;
+                font-family: 'Lucida Sans';
+            }
+
+            th{
+                background-color: burlywood;
+                color: black;
+            }
+
+            tr:nth-child(even){
+                background-color: rgb(8, 8, 92);
+                color: whitesmoke;
+            }
+
+            tr:nth-child(odd){
+                background-color:lightblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption style="font-family: 'Lucida Sans'; font-weight: bold;">Salary Details</caption>
+            <tr>
+                <th>Months</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Jan</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>31000</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>32000</td>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>33000</td>
+            </tr>
+            <tr>
+                <td>May</td>
+                <td>34000</td>
+            </tr>
+            <tr>
+                <td>June</td>
+                <td>35000</td>
+            </tr>
+        </table>
+    </body>
+</html>
